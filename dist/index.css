@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+}
+.header__img {
+  max-width: 100%;
+  height: auto;
+}
+.header__title {
+  position: absolute;
+  bottom: 0;
+  height: 261px;
+  right: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__title .title-content {
+  font-size: 90px;
+  color: #ffff;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.navbar__direction ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.navbar__direction ul li {
+  display: block;
+  padding: 5px 17px;
+  list-style-type: none;
+}
+.navbar__direction ul li a {
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+.navbar__search--input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 18px;
+  border: 1px solid rgba(131, 131, 131, 0.558);
+  box-shadow: 1px 2px #a2a2a265;
+}
+
+.main {
+  width: 850px;
+  height: 500px;
+  margin: auto;
+  padding: 20px;
+}
+.main_title {
+  margin-bottom: 30px;
+}
+.main_title ul li {
+  padding: 10px 60px;
+  border-bottom: 2px solid black;
+}
+.main_title ul li h1 {
+  font-size: 64px;
+}
+.main__content {
+  padding: 0px 60px;
+}
+.main__content span {
+  display: block;
+  margin-top: 10px;
+}
+
+.footer__top {
+  background-color: #ED9747;
+  display: flex;
+  justify-content: center;
+}
+.footer__top--content {
+  display: flex;
+}
+.footer__top--content li {
+  display: block;
+  list-style-type: none;
+  padding: 10px 30px;
+}
+.footer__top--content li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.footer__main {
+  background-color: #515151;
+  padding: 10px 250px;
+  display: flex;
+  justify-content: end;
+}
+.footer__main ul li {
+  display: block;
+  margin: 5px;
+  list-style-type: none;
+  color: rgba(255, 255, 255, 0.829);
+  font-weight: 400;
+  font-size: 13px;
+}
+.footer__main ul li:last-child {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer__bot {
+  background-color: #A1C96F;
+  padding: 4px 200px;
+  text-align: right;
+}
+.footer__bot--content span {
+  font-size: 14px;
+  color: #fff;
+}

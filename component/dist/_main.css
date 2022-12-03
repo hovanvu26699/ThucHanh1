@@ -1,0 +1,23 @@
+.main {
+  width: 850px;
+  height: 500px;
+  margin: auto;
+  padding: 20px;
+}
+.main_title {
+  margin-bottom: 30px;
+}
+.main_title ul li {
+  padding: 10px 60px;
+  border-bottom: 2px solid black;
+}
+.main_title ul li h1 {
+  font-size: 64px;
+}
+.main__content {
+  padding: 0px 60px;
+}
+.main__content span {
+  display: block;
+  margin-top: 10px;
+}

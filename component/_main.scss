@@ -1,0 +1,30 @@
+.main {
+    width: 850px;
+    height: 500px;
+    margin: auto;
+    padding: 20px;
+
+    &_title {
+        margin-bottom: 30px;
+
+        ul {
+            li {
+                padding: 10px 60px;
+                border-bottom: 2px solid black;
+
+                h1 {
+                    font-size: 64px;
+                }
+            }
+        }
+    }
+
+    &__content {
+        padding: 0px 60px;
+
+        span {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+}
